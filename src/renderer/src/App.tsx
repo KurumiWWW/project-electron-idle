@@ -1,4 +1,8 @@
 import './i18n'
+import React from 'react'
+import { RouterProvider } from 'react-router'
+import router from '@renderer/router'
+
 // import styled from '@emotion/styled'
 
 function setRem(): void {
@@ -19,7 +23,11 @@ function App(): React.JSX.Element {
   // const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
   // const { t } = useTranslation()
 
-  return <div></div>
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  )
 }
 
 export default App

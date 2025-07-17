@@ -1,6 +1,11 @@
 {
-  "welcome": "i18n测试文本",
-  "chat": {
-    "hello": "你好"
+  "area": {
+    "construction": {
+      "name": "建筑工地",
+      "tool_room": "工具间",
+      "rest_room": "休息室",
+      "manager_room": "经理办公室",
+      "building": "烂尾楼"
+    }
   }
 }
