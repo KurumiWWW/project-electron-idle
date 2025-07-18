@@ -1,8 +1,8 @@
-import { areaConstructionSite } from '@renderer/modules/Area'
 import { JSX, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { AreaConstructionSite } from '@renderer/modules/Area/ConstructionSite'
 
-const area = new areaConstructionSite('I')
+const area = new AreaConstructionSite('I')
 
 export function Explore(): JSX.Element {
   const [card, setCard] = useState('')
