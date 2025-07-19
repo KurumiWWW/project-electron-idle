@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'fusion-pixel';
-  src: url("../fonts/fusion-pixel/fusion-pixel-12px-monospaced-zh_hans.ttf");
+  src: url("../fonts/fusion-pixel/fusion-pixel-10px-monospaced-zh_hans.ttf");
 }
 
 :root {
@@ -13,15 +13,6 @@
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
-}
-
-ul {
-  list-style: none;
-}
-
-body {
-  min-height: 100vh;
-  line-height: 1.6;
   font-family: 'fusion-pixel',
   Inter,
   -apple-system,
@@ -35,6 +26,15 @@ body {
   'Droid Sans',
   'Helvetica Neue',
   sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
