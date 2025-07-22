@@ -26,10 +26,12 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@reduxjs/toolkit": "^2.8.2",
+    "decimal.js": "^10.6.0",
     "electron-updater": "^6.3.9",
     "i18next": "^25.3.2",
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-http-backend": "^3.0.2",
+    "log4js": "^6.9.1",
     "react-i18next": "^15.6.0",
     "react-redux": "^9.2.0",
     "react-router": "^7.7.0"

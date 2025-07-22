@@ -4,7 +4,7 @@ import { getPosition } from './modules/Position'
 
 export default function (): void {
   // ipc test
-  ipcMain.handle('ping', () => 'pong')
+  ipcMain.handle('ping', () => '123')
 
   ipcMain.handle('getAreaInstance', (_event, areaName, level) => getArea(areaName, level))
   ipcMain.handle('getPosition', (_event, obj) => getPosition(obj))

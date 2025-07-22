@@ -12,6 +12,7 @@ export function Explore(): JSX.Element {
     //   position.name = t(position.name)
     //   setCurrentPosition(position)
     // }
+    // await window.api.ping()
     const area: IArea = await window.api.getAreaInstance('constructionSite', 'I')
     const card = area.draw()
     const position = await window.api.getPosition(card)
